@@ -54,7 +54,7 @@ class Queue {
 
   peek() {
     //At least one item in queue
-    if (this.size >= 0) {
+    if (this.size > 0) {
       return this.first.val;
     }
   }
