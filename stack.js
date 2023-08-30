@@ -42,7 +42,7 @@ class Stack {
     }
     const returnItem = this.first;
     if (this.size === 1) this.first = returnItem.next;
-    else this.first, this.last = null
+    else this.first, this.last = null;
     this.size = this.size - 1;
     return returnItem.val;
     
